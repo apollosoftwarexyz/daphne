@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: daphne
+dependency_overrides:
+  daphne:
+    path: ../daphne

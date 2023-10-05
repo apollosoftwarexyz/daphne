@@ -1,0 +1,23 @@
+name: daphne
+description: An HTTP library for Dart and Flutter.
+version: 1.0.0
+repository: https://github.com/apollosoftwarexyz/daphne
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  freezed_annotation: ^2.2.0
+  http:
+    git:
+      url: https://github.com/SamJakob/dart-http.git
+      ref: feat/cancellation
+      path: pkgs/http
+  meta: ^1.7.0
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  freezed: ^2.3.5
+  lints: ^2.0.0
+  test: ^1.21.0
