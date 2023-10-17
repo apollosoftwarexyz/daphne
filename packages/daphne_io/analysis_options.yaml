@@ -14,7 +14,6 @@
 include: package:lints/recommended.yaml
 
 analyzer:
-  strong-mode:
   language:
     strict-inference: true
     strict-raw-types: true

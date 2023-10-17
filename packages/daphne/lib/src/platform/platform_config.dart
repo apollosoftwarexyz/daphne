@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 /// Stub for a platform-specific config.
 /// Platform-specific configs provide additional options that are passed to the

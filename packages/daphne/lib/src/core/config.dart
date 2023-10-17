@@ -5,7 +5,7 @@ import 'package:daphne/src/core/request.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 import 'package:daphne/src/platform/platform_config.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 part 'config.freezed.dart';
 
@@ -264,7 +264,7 @@ String _jsonContentTypeEncoder(final JsonMap input, final _) =>
 JsonMap _jsonContentTypeDecoder(final String input, final _) =>
     jsonDecode(input) as JsonMap;
 
-void _defaultVoidFactory() => null;
+void _defaultVoidFactory() {}
 JsonMap _defaultJsonValueFactory() => {};
 Map<String, String> _defaultUrlEncodedFormValueFactory() => {};
 

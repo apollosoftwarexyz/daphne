@@ -1,5 +1,5 @@
 import 'package:daphne/src/core/common.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 import 'package:daphne/src/core/config.dart';
 import 'package:daphne/src/core/request.dart';

@@ -1,4 +1,4 @@
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 import 'io_stub.dart';
 
 class IOClient extends BaseClient {

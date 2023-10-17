@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:daphne/daphne.dart';
 import 'package:daphne/src/core/common.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 /// A [DaphneBaseRequest] is a wrapper around some [BaseRequest] object from
 /// the [http](https://pub.dev/packages/http) package. It augments the options

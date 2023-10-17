@@ -5,7 +5,7 @@ import 'package:daphne_io/src/io_client_stub.dart'
 
 import 'package:daphne/daphne.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 part 'platform_config.freezed.dart';
 

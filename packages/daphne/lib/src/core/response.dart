@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:daphne/daphne.dart';
 import 'package:daphne/src/core/common.dart';
-import 'package:http/http.dart';
+import 'package:daphne_http/http.dart';
 
 abstract class DaphneBaseResponse<ForRequest extends DaphneBaseRequest,
     UnderlyingResponse extends BaseResponse> {
