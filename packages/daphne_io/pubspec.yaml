@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   daphne_http: ^1.2.1
-  daphne: ^1.0.0
+  daphne: ^0.0.1
 
   freezed_annotation: ^2.2.0
   meta: ^1.7.0
